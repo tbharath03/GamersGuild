@@ -54,7 +54,7 @@ const Home = ({ searchedGames, toggleHandler, toggle }) => {
                 </div>
                 <div className="z-0 col-span-4 md:col-span-3 pr-20">
                     {sidebar && (
-                        <div className="absolute dark:bg-[#111] rounded-lg shadow-xl shadow-slate-800 h-fit p-2 m-0 block z-10 md:hidden">
+                        <div className="absolute bg-[#fff] dark:bg-[#111] rounded-lg shadow-xl shadow-slate-800 h-fit p-2 m-0 block z-10 md:hidden">
                             <GenreList
                                 setToZero={() => {
                                     toggleHandler(false);
